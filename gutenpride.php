@@ -1,14 +1,14 @@
 <?php
 /**
- * Plugin Name:       Wp Block Example
- * Description:       Example block scaffolded with Create Block tool.
+ * Plugin Name:       Gutenpride
+ * Description:       A Gutenberg block to show your pride! This block enables you to type text and style it with the color font Gilbert from Type with Pride.
+ * Version:           0.1.0
  * Requires at least: 6.1
  * Requires PHP:      7.0
- * Version:           0.1.0
  * Author:            The WordPress Contributors
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
- * Text Domain:       wp-block-example
+ * Text Domain:       gutenpride
  *
  * @package           create-block
  */
@@ -20,7 +20,7 @@
  *
  * @see https://developer.wordpress.org/reference/functions/register_block_type/
  */
-function create_block_wp_block_example_block_init() {
+function create_block_gutenpride_block_init() {
 	register_block_type( __DIR__ . '/build' );
 }
-add_action( 'init', 'create_block_wp_block_example_block_init' );
+add_action( 'init', 'create_block_gutenpride_block_init' );

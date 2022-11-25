@@ -1,7 +1,7 @@
 {
-	"name": "wp-block-example",
+	"name": "gutenpride",
 	"version": "0.1.0",
-	"description": "Example block scaffolded with Create Block tool.",
+	"description": "A Gutenberg block to show your pride! This block enables you to type text and style it with the color font Gilbert from Type with Pride.",
 	"author": "The WordPress Contributors",
 	"license": "GPL-2.0-or-later",
 	"main": "build/index.js",
@@ -16,5 +16,8 @@
 	},
 	"devDependencies": {
 		"@wordpress/scripts": "^24.6.0"
+	},
+	"dependencies": {
+		"@wordpress/components": "^22.1.0"
 	}
 }

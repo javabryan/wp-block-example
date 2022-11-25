@@ -1,0 +1,20 @@
+{
+  "deploy.reloaded": {
+    "packages": [
+      {
+        "name": "local",
+        "description": "wp block example",
+        "exclude": ["node_modules/**"],
+        "deployOnSave": ["local"]   
+      }
+    ],
+    "targets": [
+      {
+        "type": "local",
+        "name": "local",
+        "description": "local...",
+        "dir": "C:\\Users\\bryan\\Local Sites\\carousel\\app\\public\\wp-content\\plugins\\wp-block-example"
+      }
+    ]
+  }
+}

@@ -12,6 +12,10 @@
       "type": "string",
       "source": "text",
       "selector": "div"
+    },
+    "mediaUrl": {
+      "type": "string",
+      "default": ""
     }
   },
   "supports": {
